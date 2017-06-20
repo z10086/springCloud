@@ -9,8 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>springCloud/springConfig</module>
-        <module>springCloud/eureka</module>
+        <module>spring-cloud/spring-config</module>
+        <module>spring-cloud/eureka</module>
+        <module>demo/demo-service</module>
     </modules>
 
     <parent>
@@ -21,7 +22,7 @@
     </parent>
     <dependencyManagement>
         <dependencies>
-            <dependency>1`
+            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Brixton.RELEASE</version>
