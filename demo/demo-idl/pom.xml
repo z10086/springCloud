@@ -10,8 +10,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demo-controller</artifactId>
 
+    <artifactId>demo-idl</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -21,14 +21,8 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
-
-
-        <dependency>
-            <groupId>com.zcq</groupId>
-            <artifactId>demo-idl</artifactId>
-            <version>1.0</version>
-        </dependency>
     </dependencies>
+
 
 
 </project>

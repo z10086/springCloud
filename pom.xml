@@ -12,6 +12,8 @@
         <module>spring-cloud/spring-config</module>
         <module>spring-cloud/eureka</module>
         <module>demo/demo-service</module>
+        <module>demo/demo-controller</module>
+        <module>demo/demo-idl</module>
     </modules>
 
     <parent>

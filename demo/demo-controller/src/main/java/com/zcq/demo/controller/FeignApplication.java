@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableFeignClients
+@EnableFeignClients(basePackages = {"com.zcq.demo"})
 public class FeignApplication {
     public static void main(String[] args) {
         SpringApplication.run(FeignApplication.class, args);
