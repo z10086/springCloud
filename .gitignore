@@ -4,3 +4,10 @@
 /springCloud/eureka/target
 /springCloud/springConfig/target
 /springCloud/eureka/*.iml
+/demo/demo-controller/target
+/demo/demo-idl/target
+/demo/demo-service/target
+/spring-cloud/spring-config/target
+/spring-cloud/eureka/target
+/*.iml
+/demo/demo-controller/*.iml

@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * Created by unknow on 2017/6/27.
+ * Created by zcq on 2017/6/27.
+ * demo api
  */
 @FeignClient(name = "demo-service")
 public interface DemoService {
